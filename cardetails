@@ -1,0 +1,18 @@
+class car:
+    def setdetails(self,model,regno):
+        self.model=model
+        self.regno=regno
+    def getmodel(self):
+        return self.model
+    def getregno(self):
+        return self.regno
+hyundai=car()
+maruthi=car()
+model1=input("car1 model:")
+regno1=input("car1 regno:")
+model2=input("car1 model:")
+regno2=input("car1 regno:")
+hyundai.setdetails(model1,regno1)
+maruthi.setdetails(model2,regno2)
+print("hyndai car details:", hyundai.getmodel(), hyundai.getregno())
+print("maruthi car details:", maruthi.getmodel(), maruthi.getregno())
